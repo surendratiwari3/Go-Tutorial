@@ -21,6 +21,6 @@
    ### Example:
    ```sh 
    $ GOROOT=/usr/local/go
-   $export GOPATH=$HOME/Projects/BrCampaign
+   $ export GOPATH=$HOME/Projects/BrCampaign
    $ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
    ``` 
