@@ -9,10 +9,10 @@
             mv go /usr/local/
    
 ## Step-3 Setup the environment variables [GOROOT,GOPATH,PATH] for golang
-   GOROOT [It is the variable that will keep where the go binary is installed]
-   GOPATH [It is the variable that will keep where the go-project is going to create]
-   PATH [Linux path variable]
+   - GOROOT [It is the variable that will keep where the go binary is installed]
+   - GOPATH [It is the variable that will keep where the go-project is going to create]
+   - PATH [Linux path variable]
    
-   export GOROOT=/usr/local/go
-   export GOPATH=$HOME/Projects/BrCampaign
-   export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+   - export GOROOT=/usr/local/go
+   - export GOPATH=$HOME/Projects/BrCampaign
+   - export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
