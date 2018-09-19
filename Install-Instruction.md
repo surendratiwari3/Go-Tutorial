@@ -9,15 +9,18 @@
    
 ## Step-2 Untar the golang binary into /usr/local directory
    - Example: 
-    ```sh 
-    $ tar -xzvf go1.11.linux-amd64.tar.gz 
-    $ mv go /usr/local/
-    ``` 
+   ```sh 
+   $ tar -xzvf go1.11.linux-amd64.tar.gz 
+   $ mv go /usr/local/
+   ``` 
+   
 ## Step-3 Setup the environment variables [GOROOT,GOPATH,PATH] for golang
    - GOROOT [It is the variable that will keep where the go binary is installed]
    - GOPATH [It is the variable that will keep where the go-project is going to create]
    - PATH [Linux path variable]
    ### Example:
-   - export GOROOT=/usr/local/go
-   - export GOPATH=$HOME/Projects/BrCampaign
-   - export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+   ```sh 
+   $ GOROOT=/usr/local/go
+   $export GOPATH=$HOME/Projects/BrCampaign
+   $ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+   ``` 
