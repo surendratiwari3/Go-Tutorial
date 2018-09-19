@@ -24,3 +24,7 @@
    $ export GOPATH=$HOME/Projects/BrCampaign
    $ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
    ``` 
+   - you can update this to end of .profile file, after updating source the profile:
+   ```sh
+   $ source ~/.profile
+   ```
