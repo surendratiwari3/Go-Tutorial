@@ -4,13 +4,13 @@
 ## Step-1 Download the specific tar from this download https://golang.org/dl/
    - Example: 
    ```sh 
-   $ wget https://dl.google.com/go/go1.11.linux-amd64.tar.gz
+   $ wget https://dl.google.com/go/go1.15.5.linux-amd64.tar.gz
    ```
    
 ## Step-2 Untar the golang binary into /usr/local directory
    - Example: 
    ```sh 
-   $ tar -xzvf go1.11.linux-amd64.tar.gz 
+   $ tar -xzvf go1.15.5.linux-amd64.tar.gz 
    $ mv go /usr/local/
    ``` 
    
@@ -20,11 +20,11 @@
    - PATH [Linux path variable]
    ### Example:
    ```sh 
-   $ GOROOT=/usr/local/go
+   $ export GOROOT=/usr/local/go
    $ export GOPATH=$HOME/Projects/BrCampaign
    $ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
    ``` 
-   - you can update this to end of .profile file, after updating source the profile:
+   - you can add this lines to end of .profile file, after updating source the profile please source the profile 
    ```sh
    $ source ~/.profile
    ```
