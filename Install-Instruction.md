@@ -28,3 +28,11 @@
    ```sh
    $ source ~/.profile
    ```
+   
+ ### Step-4 Create your gopath (where you are going to create your go project)
+
+   ```sh
+   $ mkdir -p $HOME/Projects/src
+   ```
+  
+  Note: you must place your golang project inside $GOPATH/src
