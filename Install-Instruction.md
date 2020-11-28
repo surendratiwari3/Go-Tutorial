@@ -21,7 +21,7 @@
    ### Example:
    ```sh 
    $ export GOROOT=/usr/local/go
-   $ export GOPATH=$HOME/Projects/BrCampaign
+   $ export GOPATH=$HOME/Projects
    $ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
    ``` 
    - you can add this lines to end of .profile file, after updating source the profile please source the profile 
